@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LookOut Weather</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!--This is Header-->
+    <header>
+        <img class="logo" src="./R.png">
+        <h3>LookOutWeather.com</h3>
+    </header>
+    <hr>
+    <!--This is main section to find weather and user's location-->
+    <section class="flex">
+        <div class="city">
+            <input type="text" class="inputValue" placeholder="Enter the City Name">
+            <input type="submit" name="button" class="button" value="Submit">
+        </div>
+        <div class="weather">
+            <h4 class="flex">Search Weather</h4>
+            <h1 class="name flex"></h1>
+            <p class="desc flex"></p>
+            <p class="temp flex"></p>
+        </div>
+        <button id="find-me">Show my location</button><br />
+        <p id="status"></p>
+        <a id="map-link" target="_blank"></a>
+    </section>
+    <hr>
+    <!--This is footer-->
+    <footer>
+        <h5>Copyright @2022</h5>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

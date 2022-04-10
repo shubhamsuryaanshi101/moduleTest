@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'PT Sans', sans-serif;
+    background-image: url("./clear.jpg");
+    background-size: cover;
+}
+header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;   
+    color: rgb(72, 125, 222);
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header > h3{
+    font-style: italic;
+}
+section{
+    height: 85vh;
+}
+input[type="text"]{
+    height: 40px;
+    width: 250px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+input[type="submit"]{
+    height: 40px;
+    width: 70px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    margin-left: 7px;
+}
+.weather{
+    height: 150px;
+    width: 350px;
+    margin: 50px;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+}
+.desc{
+    margin: 20px 0 10px 0;
+}
+#find-me{
+    height: 40px;
+    width: 130px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+
+}
+h5,h4{
+    text-align: center;
+    padding-top: 10px;
+}
